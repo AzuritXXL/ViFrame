@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{b2b8a010-4c02-4bb9-abf7-76f1be2ca947}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d744493b-76fe-48c7-92e6-12314a99183a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\DataModels">
+      <UniqueIdentifier>{95ceaecb-3c76-4fe0-96e9-fb1afa2bcd59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{51c71e70-5e0a-4ecd-89a3-814d058609b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataModels">
+      <UniqueIdentifier>{500f46a8-6542-4d1e-afd9-1c0cc64d799f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{6059aed7-cc3a-4e63-b398-f3feecbefb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataModels\Library">
+      <UniqueIdentifier>{2a915100-0956-4503-9aaa-7680104812d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataModels\Library">
+      <UniqueIdentifier>{5c15ea7b-4a4d-4573-b7f3-752340258f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataModels\Message">
+      <UniqueIdentifier>{29d09a28-9e5e-4064-8672-eb4027bdbda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataModels\Message">
+      <UniqueIdentifier>{c3c8ff35-1def-4dfd-a576-7f96ae83bddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assembly">
+      <UniqueIdentifier>{bf9e69f3-5068-4f2b-a994-bd3d282dcdc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assembly">
+      <UniqueIdentifier>{c98347fe-6d2d-4882-92e1-fd0287307659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Dialog">
+      <UniqueIdentifier>{19f8a5df-4502-4073-8027-ed521bdc0cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Form">
+      <UniqueIdentifier>{530bac85-59d9-439c-9b19-887c75928536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget">
+      <UniqueIdentifier>{03bffc85-1bda-48d7-a7a2-016aabb61bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form">
+      <UniqueIdentifier>{f126e994-9c31-4ce1-bd3f-ea06039eeb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialog">
+      <UniqueIdentifier>{3e74e9ea-033d-4340-b465-e96ca13f4c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form">
+      <UniqueIdentifier>{a443a000-57a7-4391-bde7-382fe95934c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialog">
+      <UniqueIdentifier>{7228b99f-ea6b-4276-a1e0-127ba3f82563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataModels\Utility">
+      <UniqueIdentifier>{9b7704cb-080b-4655-b608-3ee65eb955da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataModels\Utility">
+      <UniqueIdentifier>{781453f8-fc7e-43b9-aa1e-d2f43e74b9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Tab">
+      <UniqueIdentifier>{a3e7d217-927e-4117-86e5-ccf5dd9f7665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Widget">
+      <UniqueIdentifier>{41fd9e3d-01d2-40d0-aa5d-93c91f8a1d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Output">
+      <UniqueIdentifier>{2dca0d0e-42ad-4fc7-ac5f-8eb86eecc6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataModels\Output">
+      <UniqueIdentifier>{d5d3f86f-0857-4cba-a8ad-d0055901a849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataModels\Output">
+      <UniqueIdentifier>{9109ef42-fade-46ab-aa96-cae3de8d4127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Output">
+      <UniqueIdentifier>{54a33eb4-8798-44c7-aff4-ee8b67289124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget">
+      <UniqueIdentifier>{1e156bdf-4907-44fd-8ed5-2041611cf8cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{099d0f72-182a-4be9-9031-c5d32abb06a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{9f941c99-c196-45ed-b6d4-9834bf115bbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FormMain.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FormMain.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_FormMain.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormMain.cpp">
+      <Filter>Source Files\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryBaseItem.cpp">
+      <Filter>Source Files\DataModels\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryDataItem.cpp">
+      <Filter>Source Files\DataModels\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryVirtualItem.cpp">
+      <Filter>Source Files\DataModels\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryModel.cpp">
+      <Filter>Source Files\DataModels\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryDirCreator.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryStorage.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleHolder.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageItem.cpp">
+      <Filter>Source Files\DataModels\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MessageModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MessageModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageModel.cpp">
+      <Filter>Source Files\DataModels\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AssemblyScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AssemblyScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyTab.cpp">
+      <Filter>Source Files\Assembly</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyScene.cpp">
+      <Filter>Source Files\Assembly</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyItemConnection.cpp">
+      <Filter>Source Files\Assembly</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyItemModule.cpp">
+      <Filter>Source Files\Assembly</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AssemblyItemModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AssemblyItemModule.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AssemblyTab.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AssemblyTab.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SocketModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SocketModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketModel.cpp">
+      <Filter>Source Files\DataModels\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WidgetSocket.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WidgetSocket.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetSocket.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetail.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSocketInterface.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WidgetConnection.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WidgetConnection.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetConnection.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConnections.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogConnections.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogConnections.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ObjectModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ObjectModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectModel.cpp">
+      <Filter>Source Files\DataModels\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputBaseItem.cpp">
+      <Filter>Source Files\DataModels\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputVirtualItem.cpp">
+      <Filter>Source Files\DataModels\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputDataItem.cpp">
+      <Filter>Source Files\DataModels\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OutputGraphicsView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OutputGraphicsView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OutputModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OutputModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputModel.cpp">
+      <Filter>Source Files\DataModels\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputGraphicsView.cpp">
+      <Filter>Source Files\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkThread.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WorkThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WorkThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OutputTab.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OutputTab.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputTab.cpp">
+      <Filter>Source Files\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogObjectDetail.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogProperties.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogProperties.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogProperties.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetTabs.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WidgetTabs.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WidgetTabs.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogScene.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogSetMain.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogSetMain.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSetMain.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogSaveScreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogSaveScreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSaveScreen.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorGenerator.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OutputModelSelected.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OutputModelSelected.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputModelSelected.cpp">
+      <Filter>Source Files\DataModels\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExport.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputExporter.cpp">
+      <Filter>Source Files\Output</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_FormMain.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TabAssembly.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleHolder.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryStorage.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryBaseItem.h">
+      <Filter>Header Files\DataModels\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryVirtualItem.h">
+      <Filter>Header Files\DataModels\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryDataItem.h">
+      <Filter>Header Files\DataModels\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryModel.h">
+      <Filter>Header Files\DataModels\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryDirCreator.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageItem.h">
+      <Filter>Header Files\DataModels\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="AssemblyItemConnection.h">
+      <Filter>Header Files\Assembly</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogDetail.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_WidgetSocket.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogSocketInterface.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDetail.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSocketInterface.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogConnections.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_WidgetConnection.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputBaseItem.h">
+      <Filter>Header Files\DataModels\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputVirtualItem.h">
+      <Filter>Header Files\DataModels\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputDataItem.h">
+      <Filter>Header Files\DataModels\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogObjectDetail.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogObjectDetail.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputPolicy.h">
+      <Filter>Header Files\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogProperties.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogScene.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogSetMain.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogSaveScreen.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorGenerator.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DialogExport.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExport.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputExporter.h">
+      <Filter>Header Files\Output</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FormMain.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormMain.h">
+      <Filter>Header Files\Form</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MessageModel.h">
+      <Filter>Header Files\DataModels\Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AssemblyScene.h">
+      <Filter>Header Files\Assembly</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AssemblyItemModule.h">
+      <Filter>Header Files\Assembly</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AssemblyTab.h">
+      <Filter>Header Files\Assembly</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SocketModel.h">
+      <Filter>Header Files\DataModels\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogDetail.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WidgetSocket.ui">
+      <Filter>Form Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WidgetSocket.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogSocketInterface.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogConnections.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WidgetConnection.ui">
+      <Filter>Form Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WidgetConnection.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogConnections.h">
+      <Filter>Header Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TabAssembly.ui">
+      <Filter>Form Files\Tab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ObjectModel.h">
+      <Filter>Header Files\DataModels\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OutputGraphicsView.h">
+      <Filter>Header Files\Output</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OutputModel.h">
+      <Filter>Header Files\DataModels\Output</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WorkThread.h">
+      <Filter>Header Files\Logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OutputTab.h">
+      <Filter>Header Files\Output</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogObjectDetail.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogProperties.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogProperties.h">
+      <Filter>Header Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WidgetTabs.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogScene.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogScene.h">
+      <Filter>Header Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogSetMain.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogSetMain.h">
+      <Filter>Header Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogSaveScreen.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogSaveScreen.h">
+      <Filter>Header Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OutputModelSelected.h">
+      <Filter>Header Files\DataModels\Output</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialogExport.ui">
+      <Filter>Form Files\Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormMain.ui">
+      <Filter>Form Files\Form</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+</Project>

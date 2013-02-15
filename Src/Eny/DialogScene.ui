@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogScene</class>
+ <widget class="QDialog" name="DialogScene">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>270</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>270</width>
+    <height>170</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>270</width>
+    <height>170</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Scene setting</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="1" colspan="2">
+    <widget class="QDoubleSpinBox" name="SpinBoxHeight">
+     <property name="decimals">
+      <number>1</number>
+     </property>
+     <property name="minimum">
+      <double>1.000000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="BtnOk">
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Height:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QRadioButton" name="RadioRelative">
+     <property name="text">
+      <string>Relative to source</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_1">
+     <property name="text">
+      <string>Data size:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="LabelSize">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QRadioButton" name="RadioAbsolut">
+     <property name="text">
+      <string>Absolut size</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="BtnCancel">
+     <property name="text">
+      <string>cance</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="2">
+    <widget class="QDoubleSpinBox" name="SpinBoxWeight">
+     <property name="decimals">
+      <number>1</number>
+     </property>
+     <property name="minimum">
+      <double>1.000000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Weight:</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>RadioAbsolut</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogScene</receiver>
+   <slot>slRadioChange()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>40</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>169</x>
+     <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RadioRelative</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogScene</receiver>
+   <slot>slRadioChange()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>127</x>
+     <y>50</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnOk</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogScene</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>151</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>112</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogScene</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>149</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>176</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slRadioChange()</slot>
+ </slots>
+</ui>

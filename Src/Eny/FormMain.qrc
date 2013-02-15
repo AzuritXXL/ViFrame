@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Resources/IconError.png</file>
+        <file>Resources/IconInfo.png</file>
+        <file>Resources/IconWarning.png</file>
+        <file>Resources/IconHiden.png</file>
+        <file>Resources/IconApp.png</file>
+    </qresource>
+</RCC>
