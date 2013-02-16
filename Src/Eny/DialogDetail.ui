@@ -99,8 +99,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>542</width>
-        <height>436</height>
+        <width>98</width>
+        <height>28</height>
        </rect>
       </property>
       <attribute name="label">
@@ -132,7 +132,7 @@
       </size>
      </property>
      <property name="text">
-      <string>ok</string>
+      <string>OK</string>
      </property>
     </widget>
    </item>

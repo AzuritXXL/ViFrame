@@ -39,7 +39,7 @@
    <item row="5" column="0">
     <widget class="QPushButton" name="BtnOk">
      <property name="text">
-      <string>ok</string>
+      <string>OK</string>
      </property>
     </widget>
    </item>
@@ -87,7 +87,7 @@
    <item row="5" column="2">
     <widget class="QPushButton" name="BtnCancel">
      <property name="text">
-      <string>cance</string>
+      <string>Cancel</string>
      </property>
     </widget>
    </item>
