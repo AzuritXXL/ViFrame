@@ -142,7 +142,7 @@ void Tab::InitGui()
 	QVBoxLayout *mainLayout = new QVBoxLayout(this);
 	// ToolBar
 	QToolBar* toolBar = new QToolBar(this);
-	actReGroup = new QAction("Re-goupe", this);
+	actReGroup = new QAction("Regoupe", this);
 	connect(actReGroup, SIGNAL(triggered()), this, SLOT(slReGroup()));
 	toolBar->addAction(actReGroup);
 	actSetMain = new QAction("Set main", this);
@@ -934,16 +934,13 @@ void Tab::slGenColors()
 							"Group must have names as numbers. From 0 to count of number of groups.", QMessageBox::Ok);
 						// as groupCount we need index of highest group, let user fill
 						bool indexFill;
-						int tempGroupCount = QInputDialog::getInt(this, "Group count", "Highest group index. If canceled number of group under root will be used.",
+						int tempGroupCount = QInputDialog::getInt(this, "Group count", "Highest group index",
 							0, 0, 214000000, 1, &indexFill);
 						if (indexFill)
 						{	// use user index as group count
 							groupCount = tempGroupCount;
 						}
-						else
-						{
-							// use number of root childs
-						}					
+					
 						break;
 					}
 				case 0:
@@ -975,7 +972,7 @@ void Tab::slGenColors()
 		{	//group .. so add it
 			auto virtualItem = dynamic_cast<DataModels::Output::VirtualItem*>( mModel.GetRoot()->GetChild(i) );
 
-			if (type == Utility::ColorGenerator::FluentChange)
+			if (type = Utility::ColorGenerator::FluentChange)
 			{	// set virtual index according to name
 				bool ok = false;
 				int value = virtualItem->GetName().toInt(&ok);
@@ -991,7 +988,7 @@ void Tab::slGenColors()
 
 				virtualItem->SetColor(colorGen.GenerateColor(value));
 			}
-			else // (type == Utility::ColorGenerator::Base
+			else
 			{
 				// set color according to object index
 				virtualItem->SetColor(colorGen.GenerateColor(virtualIndex++));
